@@ -1,0 +1,123 @@
+// Responsive breakpoints
+@mixin sm {
+  @media (min-width: var(--bp-sm)) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: var(--bp-md)) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: var(--bp-lg)) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: var(--bp-xl)) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  @media (min-width: var(--bp-2xl)) {
+    @content;
+  }
+}
+
+// Flex helpers
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// Animation mixins
+@mixin fade-in {
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@mixin slide-up {
+  @keyframes slideUp {
+    from { 
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to { 
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  animation: slideUp 0.6s ease forwards;
+}
+
+@mixin slide-in-right {
+  @keyframes slideInRight {
+    from { 
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    to { 
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  animation: slideInRight 0.5s ease forwards;
+}
+
+@mixin slide-in-left {
+  @keyframes slideInLeft {
+    from { 
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to { 
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  animation: slideInLeft 0.5s ease forwards;
+}
+
+// Text truncation
+@mixin truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// Gradient text
+@mixin gradient-text($gradient) {
+  background: $gradient;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+// Glass morphism effect
+@mixin glass-morphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
