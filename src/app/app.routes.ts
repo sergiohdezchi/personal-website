@@ -8,13 +8,13 @@ import { ContactComponent } from './pages/contact/contact.component';
 export const routes: Routes = [
   { path: '', component: HomeComponent },
   {
-    path: 'sobre-mi', component: AboutComponent
+    path: 'about', component: AboutComponent
   },
   {
-    path: 'habilidades', component: SkillsComponent
+    path: 'skills', component: SkillsComponent
   },
   {
-    path: 'contacto', component: ContactComponent
+    path: 'contact', component: ContactComponent
   },
   { path: '**', redirectTo: '' }
 ];

@@ -33,9 +33,9 @@ import { CommonModule } from '@angular/common';
             <h3 class="footer-title">Enlaces Rápidos</h3>
             <ul class="footer-links">
               <li><a routerLink="/">Inicio</a></li>
-              <li><a routerLink="/sobre-mi">Sobre mí</a></li>
-              <li><a routerLink="/habilidades">Habilidades</a></li>
-              <li><a routerLink="/contacto">Contacto</a></li>
+              <li><a routerLink="/about">Sobre mí</a></li>
+              <li><a routerLink="/skills">Habilidades</a></li>
+              <li><a routerLink="/contact">Contacto</a></li>
             </ul>
           </div>
 

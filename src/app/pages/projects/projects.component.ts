@@ -125,7 +125,7 @@ interface Project {
         <div class="cta-content">
           <h2>¿Tienes un proyecto en mente?</h2>
           <p>Estoy disponible para nuevos proyectos y colaboraciones. Hablemos sobre cómo puedo ayudarte.</p>
-          <a routerLink="/contacto" class="btn btn-primary btn-lg">Contáctame</a>
+          <a routerLink="/contact" class="btn btn-primary btn-lg">Contáctame</a>
         </div>
       </div>
     </section>

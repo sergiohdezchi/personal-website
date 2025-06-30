@@ -82,7 +82,7 @@ interface SkillCategory {
             El desarrollo web es un campo en constante evolución. Por eso me comprometo
             a seguir aprendiendo y mantenerme actualizado con las últimas tecnologías y mejores prácticas.
           </p>
-          <a routerLink="/sobre-mi" class="btn btn-primary btn-lg">Conoce más sobre mí</a>
+          <a routerLink="/about" class="btn btn-primary btn-lg">Conoce más sobre mí</a>
         </div>
       </div>
     </section>

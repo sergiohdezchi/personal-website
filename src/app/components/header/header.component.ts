@@ -16,9 +16,9 @@ import { CommonModule } from '@angular/common';
         <nav class="nav">
           <ul class="nav-list">
             <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Inicio</a></li>
-            <li><a routerLink="/sobre-mi" routerLinkActive="active">Sobre mí</a></li>
-            <li><a routerLink="/habilidades" routerLinkActive="active">Habilidades</a></li>
-            <li><a routerLink="/contacto" routerLinkActive="active">Contacto</a></li>
+            <li><a routerLink="/about" routerLinkActive="active">Sobre mí</a></li>
+            <li><a routerLink="/skills" routerLinkActive="active">Habilidades</a></li>
+            <li><a routerLink="/contact" routerLinkActive="active">Contacto</a></li>
           </ul>
         </nav>
 
@@ -31,9 +31,9 @@ import { CommonModule } from '@angular/common';
         <div class="mobile-menu" [class.open]="mobileMenuOpen">
           <ul class="mobile-nav-list">
             <li><a routerLink="/" (click)="closeMobileMenu()">Inicio</a></li>
-            <li><a routerLink="/sobre-mi" (click)="closeMobileMenu()">Sobre mí</a></li>
-            <li><a routerLink="/habilidades" (click)="closeMobileMenu()">Habilidades</a></li>
-            <li><a routerLink="/contacto" (click)="closeMobileMenu()">Contacto</a></li>
+            <li><a routerLink="/about" (click)="closeMobileMenu()">Sobre mí</a></li>
+            <li><a routerLink="/skills" (click)="closeMobileMenu()">Habilidades</a></li>
+            <li><a routerLink="/contact" (click)="closeMobileMenu()">Contacto</a></li>
           </ul>
         </div>
       </div>

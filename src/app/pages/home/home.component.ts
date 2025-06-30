@@ -23,7 +23,7 @@ import { trigger, style, transition, animate, query, stagger } from '@angular/an
           </p>
 
           <div class="cta-buttons" @fadeInUp>
-            <a routerLink="/contacto" class="btn btn-outline">Contactar</a>
+            <a routerLink="/contact" class="btn btn-outline">Contactar</a>
           </div>
 
           <div class="social-links" @fadeInUp>
@@ -73,7 +73,7 @@ import { trigger, style, transition, animate, query, stagger } from '@angular/an
         </div>
 
         <div class="cta-center">
-          <a routerLink="/habilidades" class="btn btn-primary">Ver todas mis habilidades</a>
+          <a routerLink="/skills" class="btn btn-primary">Ver todas mis habilidades</a>
         </div>
       </div>
     </section>
@@ -85,7 +85,7 @@ import { trigger, style, transition, animate, query, stagger } from '@angular/an
           <p class="cta-description">
             Estoy disponible para trabajos freelance, proyectos interesantes o discutir oportunidades laborales.
           </p>
-          <a routerLink="/contacto" class="btn btn-primary btn-lg">Contáctame</a>
+          <a routerLink="/contact" class="btn btn-primary btn-lg">Contáctame</a>
         </div>
       </div>
     </section>
