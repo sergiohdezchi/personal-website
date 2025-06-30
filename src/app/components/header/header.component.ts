@@ -32,7 +32,6 @@ import { CommonModule } from '@angular/common';
           <ul class="mobile-nav-list">
             <li><a routerLink="/" (click)="closeMobileMenu()">Inicio</a></li>
             <li><a routerLink="/sobre-mi" (click)="closeMobileMenu()">Sobre mí</a></li>
-            <li><a routerLink="/proyectos" (click)="closeMobileMenu()">Proyectos</a></li>
             <li><a routerLink="/habilidades" (click)="closeMobileMenu()">Habilidades</a></li>
             <li><a routerLink="/contacto" (click)="closeMobileMenu()">Contacto</a></li>
           </ul>

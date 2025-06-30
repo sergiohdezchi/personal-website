@@ -11,9 +11,6 @@ export const routes: Routes = [
     path: 'sobre-mi', component: AboutComponent
   },
   {
-    path: 'proyectos', component: ProjectsComponent
-  },
-  {
     path: 'habilidades', component: SkillsComponent
   },
   {

@@ -1,4 +1,4 @@
-    <section class="about-hero">
+<section class="about-hero">
       <div class="container">
         <div class="content">
           <h1 class="title">Sobre Mí</h1>
@@ -60,7 +60,12 @@
         <h2 class="section-title text-center">Mi Experiencia</h2>
 
         <div class="timeline">
-          <div class="timeline-item" *ngFor="let job of workExperience">
+          <div class="timeline-item"
+               *ngFor="let job of workExperience"
+               (click)="openJobDetails(job)"
+               [attr.aria-label]="'Ver detalles de ' + job.company"
+               tabindex="0"
+               (keydown.enter)="openJobDetails(job)">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="time-period">{{ job.period }}</div>
@@ -69,6 +74,9 @@
               <p class="description">{{ job.description }}</p>
               <div class="technologies">
                 <span class="tech-tag" *ngFor="let tech of job.technologies">{{ tech }}</span>
+              </div>
+              <div class="view-more">
+                <span class="view-more-text">Ver más detalles</span>
               </div>
             </div>
           </div>
@@ -95,3 +103,49 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal para mostrar detalles del trabajo -->
+    <app-modal
+      [isOpen]="isModalOpen"
+      [title]="selectedJob?.company"
+      (closeModal)="closeModal()">
+      <div *ngIf="selectedJob" class="job-detail-content">
+        <div class="job-header">
+          <h3 class="job-position">{{ selectedJob.position }}</h3>
+          <div class="job-period">{{ selectedJob.period }}</div>
+        </div>
+
+        <div class="job-section">
+          <h4 class="section-label">Descripción</h4>
+          <p class="job-description">{{ selectedJob.description }}</p>
+        </div>
+
+        <div class="job-section">
+          <h4 class="section-label">Responsabilidades</h4>
+          <p class="job-responsibilities">{{ selectedJob.responsibilities }}</p>
+        </div>
+
+        <div class="job-section">
+          <h4 class="section-label">Logros</h4>
+          <ul class="achievements-list">
+            <li *ngFor="let achievement of selectedJob.achievements">
+              {{ achievement }}
+            </li>
+          </ul>
+        </div>
+
+        <div class="job-section">
+          <h4 class="section-label">Tecnologías</h4>
+          <div class="modal-technologies">
+            <span class="tech-tag" *ngFor="let tech of selectedJob.technologies">{{ tech }}</span>
+          </div>
+        </div>
+
+        <div *ngIf="selectedJob.url" class="job-section job-link-section">
+          <a [href]="selectedJob.url" target="_blank" rel="noopener noreferrer" class="company-link">
+            Visitar sitio web de la empresa
+            <span class="link-icon">→</span>
+          </a>
+        </div>
+      </div>
+    </app-modal>
