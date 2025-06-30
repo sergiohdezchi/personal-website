@@ -107,6 +107,24 @@ export class SkillsComponent {
           description: 'Desarrollo de aplicaciones empresariales con Spring Boot, Hibernate y patrones de diseño'
         },
         {
+          name: 'Python',
+          level: 70,
+          icon: '<i class="fab fa-python"></i>',
+          description: 'Desarrollo de scripts, automatización de tareas y aplicaciones web con Django y Flask'
+        },
+        {
+          name: 'Node.js',
+          level: 75,
+          icon: '<i class="fab fa-node-js"></i>',
+          description: 'Desarrollo de aplicaciones backend con Express.js, manejo de eventos y APIs RESTful'
+        },
+        {
+          name: 'PHP',
+          level: 80,
+          icon: '<i class="fab fa-php"></i>',
+          description: 'Desarrollo de aplicaciones web con Laravel, Symfony y manejo de bases de datos MySQL'
+        },
+        {
           name: 'MongoDB',
           level: 75,
           icon: '<i class="fas fa-database"></i>',
