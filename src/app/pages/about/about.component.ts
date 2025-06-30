@@ -29,7 +29,7 @@ export class AboutComponent {
       position: 'Desarrollador FullStack',
       period: '2017 - 2019',
       description:  'Desarrollo de aplicaciones web para gestión de telecomunicaciones. Implementación de nuevas funcionalidades y mantenimiento de la plataforma de tickets.',
-      technologies: ['Java', 'Spring Boot','Javascript', 'Yii', 'HTML5', 'CSS3', 'Bootstrap']
+      technologies: ['Java', 'Spring Boot','Javascript', 'Python', 'Yii', 'HTML5', 'CSS3', 'Bootstrap']
     },
     {
       company: 'Idetek',

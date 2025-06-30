@@ -10,14 +10,13 @@ import { CommonModule } from '@angular/common';
     <header class="header" [class.scrolled]="isScrolled">
       <div class="container">
         <a class="logo" routerLink="/">
-          <span class="name">Mi Portafolio</span>
+          <img class="image-profile" src="images/logo.svg" width="50" height="50" alt="logo">
         </a>
 
         <nav class="nav">
           <ul class="nav-list">
             <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Inicio</a></li>
             <li><a routerLink="/sobre-mi" routerLinkActive="active">Sobre mí</a></li>
-            <li><a routerLink="/proyectos" routerLinkActive="active">Proyectos</a></li>
             <li><a routerLink="/habilidades" routerLinkActive="active">Habilidades</a></li>
             <li><a routerLink="/contacto" routerLinkActive="active">Contacto</a></li>
           </ul>

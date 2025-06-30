@@ -11,9 +11,10 @@ import { CommonModule } from '@angular/common';
       <div class="container">
         <div class="footer-content">
           <div class="footer-section about">
-            <h3 class="footer-title">Mi Portafolio</h3>
+            <h3 class="footer-title">Sergio Hernandez</h3>
             <p class="footer-description">
-              Desarrollador web especializado en crear experiencias digitales atractivas y funcionales.
+              Creo experiencias web modernas que aportan valor real.
+              Soy ingeniero de software con enfoque full stack, combinando frontend atractivo con backend robusto.
             </p>
             <div class="social-links">
               <a href="https://github.com/sergiohdezchi" target="_blank" class="social-link">
@@ -33,7 +34,6 @@ import { CommonModule } from '@angular/common';
             <ul class="footer-links">
               <li><a routerLink="/">Inicio</a></li>
               <li><a routerLink="/sobre-mi">Sobre mí</a></li>
-              <li><a routerLink="/proyectos">Proyectos</a></li>
               <li><a routerLink="/habilidades">Habilidades</a></li>
               <li><a routerLink="/contacto">Contacto</a></li>
             </ul>

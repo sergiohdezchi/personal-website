@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormGroup, FormBuilder, Validators, ReactiveFormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
-  standalone: true,
-  imports: [CommonModule, ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule, HttpClientModule],
   template: `
     <section class="contact-hero">
       <div class="container">
@@ -171,8 +171,7 @@ export class ContactComponent {
   isSubmitting: boolean = false;
   formSubmitted: boolean = false;
   submitSuccess: boolean = false;
-
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private http: HttpClient) {
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
@@ -189,25 +188,22 @@ export class ContactComponent {
   onSubmit() {
     if (this.contactForm.valid) {
       this.isSubmitting = true;
-
-      // Aquí simularemos el envío del formulario
-      setTimeout(() => {
-        this.isSubmitting = false;
-        this.formSubmitted = true;
-        this.submitSuccess = true; // En un caso real, esto dependería de la respuesta del servidor
-
-        // Reset form after successful submission
-        if (this.submitSuccess) {
+      const formData = this.contactForm.value;
+      this.http.post('/form-handler.php', formData).subscribe({
+        next: () => {
+          this.isSubmitting = false;
+          this.submitSuccess = true;
+          this.formSubmitted = true;
           this.contactForm.reset();
-
-          // Hide the message after a few seconds
-          setTimeout(() => {
-            this.formSubmitted = false;
-          }, 5000);
+          setTimeout(() => (this.formSubmitted = false), 5000);
+        },
+        error: () => {
+          this.isSubmitting = false;
+          this.submitSuccess = false;
+          this.formSubmitted = true;
         }
-      }, 1500);
+      });
     } else {
-      // Marca todos los campos como tocados para mostrar errores
       Object.keys(this.contactForm.controls).forEach(key => {
         const control = this.contactForm.get(key);
         control?.markAsTouched();

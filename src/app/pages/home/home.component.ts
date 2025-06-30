@@ -13,17 +13,16 @@ import { trigger, style, transition, animate, query, stagger } from '@angular/an
         <div class="content">
           <h1 class="title" @fadeInUp>
             <span class="greeting">Hola, soy</span>
-            <span class="name">Sergio Manuel Hernandez Chi</span>
-            <span class="profession">Desarrollador Web</span>
+            <span class="name">Sergio Hernandez</span>
+            <span class="profession">Desarrollador Web Full Stack</span>
           </h1>
 
           <p class="description" @fadeInUp>
-            Transformando ideas en experiencias digitales impactantes.
-            Software Engineer especializado en Ruby, Java, Angular y React.
+            Creo experiencias web modernas que aportan valor real.
+            Soy ingeniero de software con enfoque full stack, combinando frontend atractivo con backend robusto.
           </p>
 
           <div class="cta-buttons" @fadeInUp>
-            <a routerLink="/proyectos" class="btn btn-primary">Ver Proyectos</a>
             <a routerLink="/contacto" class="btn btn-outline">Contactar</a>
           </div>
 
@@ -53,35 +52,6 @@ import { trigger, style, transition, animate, query, stagger } from '@angular/an
         <span>Desliza</span>
         <div class="mouse">
           <div class="wheel"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="featured-projects">
-      <div class="container">
-        <h2 class="section-title" @fadeInUp>Proyectos Destacados</h2>
-
-        <div class="projects-grid">
-          <div class="project-card" *ngFor="let project of featuredProjects; let i = index" @cardAnimation>
-            <div class="project-image">
-              <img [src]="project.image" [alt]="project.title">
-            </div>
-            <div class="project-content">
-              <h3 class="project-title">{{ project.title }}</h3>
-              <p class="project-description">{{ project.description }}</p>
-              <div class="project-tags">
-                <span class="tag" *ngFor="let tag of project.tags">{{ tag }}</span>
-              </div>
-              <div class="project-links">
-                <a [href]="project.demoUrl" target="_blank" class="project-link">Demo</a>
-                <a [href]="project.repoUrl" target="_blank" class="project-link">Código</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="cta-center">
-          <a routerLink="/proyectos" class="btn btn-primary">Ver todos los proyectos</a>
         </div>
       </div>
     </section>
