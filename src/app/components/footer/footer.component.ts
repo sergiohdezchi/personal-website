@@ -60,11 +60,11 @@ import { CommonModule } from '@angular/common';
 
         <div class="footer-bottom">
           <p class="copyright">
-            &copy; {{ currentYear }} Mi Portfolio. Todos los derechos reservados.
+            &copy; {{ currentYear }} Sergio Hernandez. Todos los derechos reservados.
           </p>
           <div class="footer-bottom-links">
-            <a href="#">Política de Privacidad</a>
-            <a href="#">Términos de Uso</a>
+            <!-- <a href="#">Política de Privacidad</a> -->
+            <!-- <a href="#">Términos de Uso</a> -->
           </div>
         </div>
       </div>

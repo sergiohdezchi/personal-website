@@ -22,7 +22,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
           <div class="contact-methods">
             <h2 class="section-title">Información de Contacto</h2>
             <p class="contact-description">
-              Estoy abierto a oportunidades de trabajo freelance, colaboraciones en proyectos
+              Estoy abierto a colaboraciones en proyectos
               interesantes o posiciones de tiempo completo. No dudes en contactarme utilizando
               el formulario o a través de alguno de los siguientes medios:
             </p>

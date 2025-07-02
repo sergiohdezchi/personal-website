@@ -18,8 +18,8 @@ import { trigger, style, transition, animate, query, stagger } from '@angular/an
           </h1>
 
           <p class="description" @fadeInUp>
-            Creo experiencias web modernas que aportan valor real.
-            Soy ingeniero de software con enfoque full stack, combinando frontend atractivo con backend robusto.
+            Desarrollo soluciones web modernas que generan valor real.
+            Soy Ingeniero de Software con experiencia como Fullstack, combino un backend sólido y escalable con una interfaz intuitiva, siempre enfocado en la calidad, el rendimiento y la mantenibilidad del software.
           </p>
 
           <div class="cta-buttons" @fadeInUp>
@@ -83,7 +83,7 @@ import { trigger, style, transition, animate, query, stagger } from '@angular/an
         <div class="cta-content" @fadeInUp>
           <h2 class="section-title">¿Interesado en trabajar juntos?</h2>
           <p class="cta-description">
-            Estoy disponible para trabajos freelance, proyectos interesantes o discutir oportunidades laborales.
+            Estoy disponible para proyectos interesantes o discutir oportunidades laborales.
           </p>
           <a routerLink="/contact" class="btn btn-primary btn-lg">Contáctame</a>
         </div>
