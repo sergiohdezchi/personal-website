@@ -18,6 +18,14 @@
     "@angular-devkit/core" "19.2.15"
     rxjs "7.8.1"
 
+"@angular-devkit/architect@^0.1301.0 || ^0.1401.0 || ^0.1501.0 || ^0.1601.0 || ^0.1700.0 || ^0.1800.0 || ^0.1900.0 || ^0.2000.0":
+  version "0.2000.5"
+  resolved "https://registry.npmjs.org/@angular-devkit/architect/-/architect-0.2000.5.tgz"
+  integrity sha512-9aPtMdRiOVP14PkbgxAKh3TivxXTBiOr66xYbxutP0cMBwzRX67ekyEpAxmTEiWnd+qmxV9tddWgGL5sWcEZgQ==
+  dependencies:
+    "@angular-devkit/core" "20.0.5"
+    rxjs "7.8.2"
+
 "@angular-devkit/build-angular@^19.2.15":
   version "19.2.15"
   resolved "https://registry.npmjs.org/@angular-devkit/build-angular/-/build-angular-19.2.15.tgz"
@@ -101,7 +109,19 @@
     rxjs "7.8.1"
     source-map "0.7.4"
 
-"@angular-devkit/schematics@19.2.15":
+"@angular-devkit/core@20.0.5", "@angular-devkit/core@^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0":
+  version "20.0.5"
+  resolved "https://registry.npmjs.org/@angular-devkit/core/-/core-20.0.5.tgz"
+  integrity sha512-bFaFP984GxqfC1WYlUEFuwkDO657ynxI51cE3J6yfwP92ykyF/MXzV0S9tRBhx5rcLVgCAiohxmzKdxPhoLWSA==
+  dependencies:
+    ajv "8.17.1"
+    ajv-formats "3.0.1"
+    jsonc-parser "3.3.1"
+    picomatch "4.0.2"
+    rxjs "7.8.2"
+    source-map "0.7.4"
+
+"@angular-devkit/schematics@19.2.15", "@angular-devkit/schematics@^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0":
   version "19.2.15"
   resolved "https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-19.2.15.tgz"
   integrity sha512-kNOJ+3vekJJCQKWihNmxBkarJzNW09kP5a9E1SRNiQVNOUEeSwcRR0qYotM65nx821gNzjjhJXnAZ8OazWldrg==
@@ -1911,7 +1931,7 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.34.8.tgz#4cdb2cfae69cdb7b1a3cc58778e820408075e928"
   integrity sha512-U0FaE5O1BCpZSeE6gBl3c5ObhePQSfk9vDRToMmTkbhCOgW4jqvtS5LGyQ76L1fH8sM0keRp4uDTsbjiUyjk0g==
 
-"@schematics/angular@19.2.15":
+"@schematics/angular@19.2.15", "@schematics/angular@^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0":
   version "19.2.15"
   resolved "https://registry.npmjs.org/@schematics/angular/-/angular-19.2.15.tgz"
   integrity sha512-dz/eoFQKG09POSygpEDdlCehFIMo35HUM2rVV8lx9PfQEibpbGwl1NNQYEbqwVjTyCyD/ILyIXCWPE+EfTnG4g==
@@ -4818,6 +4838,17 @@ neo-async@^2.6.2:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+ng-extract-i18n-merge@^2.15.1:
+  version "2.15.1"
+  resolved "https://registry.npmjs.org/ng-extract-i18n-merge/-/ng-extract-i18n-merge-2.15.1.tgz"
+  integrity sha512-vNr+sVySO13imQ1Y7Jwe3JtGKP4Hck4Gzb7i4HxOq9fDLDORDIoazLTiwmZVoW4ZAyqK7kkDavjS0XD+VSMZUA==
+  dependencies:
+    "@angular-devkit/architect" "^0.1301.0 || ^0.1401.0 || ^0.1501.0 || ^0.1601.0 || ^0.1700.0 || ^0.1800.0 || ^0.1900.0 || ^0.2000.0"
+    "@angular-devkit/core" "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0"
+    "@angular-devkit/schematics" "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0"
+    "@schematics/angular" "^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^20.0.0"
+    xmldoc "^1.1.3"
+
 node-addon-api@^6.1.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-6.1.0.tgz"
@@ -5576,7 +5607,7 @@ rxjs@7.8.1:
   dependencies:
     tslib "^2.1.0"
 
-rxjs@~7.8.0:
+rxjs@7.8.2, rxjs@~7.8.0:
   version "7.8.2"
   resolved "https://registry.npmjs.org/rxjs/-/rxjs-7.8.2.tgz"
   integrity sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==
@@ -6580,6 +6611,13 @@ ws@~8.17.1:
   version "8.17.1"
   resolved "https://registry.npmjs.org/ws/-/ws-8.17.1.tgz"
   integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
+
+xmldoc@^1.1.3:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/xmldoc/-/xmldoc-1.3.0.tgz"
+  integrity sha512-y7IRWW6PvEnYQZNZFMRLNJw+p3pezM4nKYPfr15g4OOW9i8VpeydycFuipE2297OvZnh3jSb2pxOt9QpkZUVng==
+  dependencies:
+    sax "^1.2.4"
 
 y18n@^5.0.5:
   version "5.0.8"

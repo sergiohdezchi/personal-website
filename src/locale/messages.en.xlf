@@ -1,152 +1,279 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" target-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="nav.home" datatype="html">
         <source>Inicio</source>
         <target state="translated">Home</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">9,10</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">25,26</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="nav.about" datatype="html">
         <source>Sobre mí</source>
         <target state="translated">About Me</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">10,11</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">26,27</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="nav.skills" datatype="html">
         <source>Habilidades</source>
         <target state="translated">Skills</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">11,12</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">27,28</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="nav.contact" datatype="html">
         <source>Contacto</source>
         <target state="translated">Contact</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">12,13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">28,29</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="nav.language" datatype="html">
         <source>Idioma:</source>
         <target state="translated">Language:</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">30,31</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="home.presentation.greeting" datatype="html">
         <source>Hola, soy</source>
         <target state="translated">Hi, I am</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">5,6</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="home.presentation.name" datatype="html">
         <source>Sergio Hernandez</source>
         <target state="translated">Sergio Hernandez</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">6,7</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="home.presentation.profession" datatype="html">
         <source>Desarrollador Web Full Stack</source>
         <target state="translated">Full Stack Web Developer</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">7,10</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="home.presentation.description" datatype="html">
         <source> Desarrollo soluciones web modernas que generan valor real. Soy Ingeniero de Software con experiencia como Fullstack, combino un backend sólido y escalable con una interfaz intuitiva, siempre enfocado en la calidad, el rendimiento y la mantenibilidad del software. </source>
-        <target state="translated">I develop modern web solutions that deliver real value. I'm a Software Engineer with Fullstack experience, combining a solid and scalable backend with an intuitive frontend — always focused on software quality, performance, and maintainability. </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">11,15</context>
-        </context-group>
+        <target state="translated"> I develop modern web solutions that deliver real value. I'm a Software Engineer with Fullstack experience, combining a solid and scalable backend with an intuitive frontend — always focused on software quality, performance, and maintainability. </target>
       </trans-unit>
       <trans-unit id="home.presentation.contact" datatype="html">
         <source>Contactar</source>
         <target state="translated">Concat</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">16,19</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="home.presentation.slice" datatype="html">
         <source>Desliza</source>
         <target state="translated">Swipe</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">42,44</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="home.skills.title" datatype="html">
         <source>Mis Habilidades</source>
-        <target state="translated">My Skills
-</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">51,53</context>
-        </context-group>
+        <target state="translated">My Skills</target>
       </trans-unit>
       <trans-unit id="home.skills.button" datatype="html">
         <source>Ver todas mis habilidades</source>
-        <target state="translated">View all my skills
-</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">66,69</context>
-        </context-group>
+        <target state="translated">View all my skills</target>
       </trans-unit>
       <trans-unit id="home.contact.title" datatype="html">
         <source>¿Interesado en trabajar juntos?</source>
         <target state="translated">Interested in working together?</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">74,75</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="home.contact.description" datatype="html">
         <source> Estoy disponible para proyectos interesantes o discutir oportunidades laborales. </source>
-        <target state="translated">I'm available for interesting projects or to discuss job opportunities.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">76,78</context>
-        </context-group>
+        <target state="translated"> I'm available for interesting projects or to discuss job opportunities. </target>
       </trans-unit>
       <trans-unit id="home.contact.button" datatype="html">
         <source>Contáctame</source>
         <target state="translated">Contact me</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">78,81</context>
-        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.description" datatype="html">
+        <source> Creo experiencias web modernas que aportan valor real. Soy ingeniero de software con enfoque full stack, combinando frontend atractivo con backend robusto. </source>
+        <target state="translated"> I create modern web experiences that deliver real value. I’m a software engineer with a full-stack focus, combining attractive frontends with robust backends. </target>
+      </trans-unit>
+      <trans-unit id="footer.links.title" datatype="html">
+        <source>Enlaces Rápidos</source>
+        <target state="translated">Quick Links</target>
+      </trans-unit>
+      <trans-unit id="footer.links.home" datatype="html">
+        <source>Inicio</source>
+        <target state="translated">Home</target>
+      </trans-unit>
+      <trans-unit id="footer.links.about" datatype="html">
+        <source>Sobre mí</source>
+        <target state="translated">About Me</target>
+      </trans-unit>
+      <trans-unit id="footer.links.habilities" datatype="html">
+        <source>Habilidades</source>
+        <target state="translated">Skills</target>
+      </trans-unit>
+      <trans-unit id="footer.links.contact" datatype="html">
+        <source>Contacto</source>
+        <target state="translated">Contact</target>
+      </trans-unit>
+      <trans-unit id="footer.contact.title" datatype="html">
+        <source>Contacto</source>
+        <target state="translated">Contact</target>
+      </trans-unit>
+      <trans-unit id="4234702054824955184" datatype="html">
+        <source>Sobre Mí</source>
+        <target state="translated">About Me</target>
+      </trans-unit>
+      <trans-unit id="7370363589778273286" datatype="html">
+        <source>Desarrollador Web FullStack</source>
+        <target state="translated">Full Stack Web Developer</target>
+      </trans-unit>
+      <trans-unit id="5765857937134016954" datatype="html">
+        <source>Mi Historia</source>
+        <target state="translated">My Story</target>
+      </trans-unit>
+      <trans-unit id="8374899493854660565" datatype="html">
+        <source> ¡Hola! Soy Sergio Hernández, desarrollador web full stack. Me gusta construir cosas que no solo se vean bien, sino que realmente funcionen. Trabajo principalmente con Ruby on Rails, Java, Angular y React, y me enfoco en crear soluciones claras, útiles y fáciles de mantener. </source>
+        <target state="translated"> Hi! I'm Sergio Hernández, a full stack web developer. I enjoy building things that not only look good but actually work. I mainly work with Ruby on Rails, Java, Angular, and React, focusing on creating clear, useful, and easy-to-maintain solutions. </target>
+      </trans-unit>
+      <trans-unit id="7879470947039157557" datatype="html">
+        <source> Mi carrera comenzó con proyectos personales y trabajos freelance, donde aprendí a resolver desafíos concretos y a colaborar directamente con clientes. Después de graduarme como Ingeniero en Sistemas Computacionales, he tenido la oportunidad de colaborar en proyectos variados: desde sistemas empresariales hasta sitios web personalizados. </source>
+        <target state="translated"> My career began with personal projects and freelance work, where I learned to solve concrete challenges and collaborate directly with clients. After graduating as a Computer Systems Engineer, I’ve had the opportunity to work on a variety of projects — from enterprise systems to custom websites. </target>
+      </trans-unit>
+      <trans-unit id="6810069578919748780" datatype="html">
+        <source> Más allá del código, me interesa mucho trabajar en equipo y aprender constantemente. Siempre estoy buscando formas de mejorar, ya sea optimizando un proceso, aprendiendo una nueva tecnología o afinando los detalles en la experiencia del usuario. Para mí, la tecnología tiene sentido cuando aporta valor real y ayuda a otros a avanzar. </source>
+        <target state="translated"> Beyond the code, I am very interested in working as part of a team and constantly learning. I am always looking for ways to improve, whether by optimizing a process, learning a new technology, or refining details in the user experience. For me, technology makes sense when it provides real value and helps others move forward. </target>
+      </trans-unit>
+      <trans-unit id="5988527754735881488" datatype="html">
+        <source>Nombre:</source>
+        <target state="translated">Name:</target>
+      </trans-unit>
+      <trans-unit id="6631334172623029500" datatype="html">
+        <source>Email:</source>
+        <target state="new">Email:</target>
+      </trans-unit>
+      <trans-unit id="1287065984087460307" datatype="html">
+        <source>Ubicación:</source>
+        <target state="translated">Location:</target>
+      </trans-unit>
+      <trans-unit id="9218122120478946661" datatype="html">
+        <source>Disponibilidad:</source>
+        <target state="translated">Availability:</target>
+      </trans-unit>
+      <trans-unit id="7467967706335052580" datatype="html">
+        <source>Descargar CV</source>
+        <target state="translated">Download CV</target>
+      </trans-unit>
+      <trans-unit id="9016751989559384448" datatype="html">
+        <source>Mi Experiencia</source>
+        <target state="translated">My Experience</target>
+      </trans-unit>
+      <trans-unit id="3541690579151961419" datatype="html">
+        <source>Ver más detalles</source>
+        <target state="translated">View more details</target>
+      </trans-unit>
+      <trans-unit id="7814824298655962352" datatype="html">
+        <source>Mi Educación</source>
+        <target state="translated">My Education</target>
+      </trans-unit>
+      <trans-unit id="2702769239797460498" datatype="html">
+        <source>Descripción</source>
+        <target state="translated">Description</target>
+      </trans-unit>
+      <trans-unit id="6091060883007552553" datatype="html">
+        <source>Responsabilidades</source>
+        <target state="translated">Responsibilities</target>
+      </trans-unit>
+      <trans-unit id="4372869550976822540" datatype="html">
+        <source>Logros</source>
+        <target state="translated">Achievements</target>
+      </trans-unit>
+      <trans-unit id="4546458009532801804" datatype="html">
+        <source>Tecnologías</source>
+        <target state="translated">Technologies</target>
+      </trans-unit>
+      <trans-unit id="2045258518631642075" datatype="html">
+        <source> Visitar sitio web de la empresa <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;link-icon&quot;>"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/></source>
+        <target state="translated"> Visit company website <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;link-icon&quot;>"/>→<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/></target>
+      </trans-unit>
+      <trans-unit id="8433768950518578342" datatype="html">
+        <source>Contacto</source>
+        <target state="translated">Contact</target>
+      </trans-unit>
+      <trans-unit id="5823919153758241149" datatype="html">
+        <source>¿Tienes un proyecto en mente? ¡Hablemos!</source>
+        <target state="translated">Do you have a project in mind? Let’s talk!</target>
+      </trans-unit>
+      <trans-unit id="6351738408482451790" datatype="html">
+        <source>Información de Contacto</source>
+        <target state="translated">Contact Information</target>
+      </trans-unit>
+      <trans-unit id="7182292926843211863" datatype="html">
+        <source> Estoy abierto a colaboraciones en proyectos interesantes o posiciones de tiempo completo. No dudes en contactarme utilizando el formulario o a través de alguno de los siguientes medios: </source>
+        <target state="translated"> I am open to collaborations on interesting projects or full-time positions. Feel free to contact me using the form or through any of the following means: </target>
+      </trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html">
+        <source>Email</source>
+        <target state="new">Email</target>
+      </trans-unit>
+      <trans-unit id="8437243144618493917" datatype="html">
+        <source>Teléfono</source>
+        <target state="translated">Phone</target>
+      </trans-unit>
+      <trans-unit id="8887144634091745639" datatype="html">
+        <source>Ubicación</source>
+        <target state="translated">Location</target>
+      </trans-unit>
+      <trans-unit id="2134578232658122296" datatype="html">
+        <source>Envíame un mensaje</source>
+        <target state="translated">Send me a message</target>
+      </trans-unit>
+      <trans-unit id="5357661269973482487" datatype="html">
+        <source>Nombre</source>
+        <target state="translated">Name</target>
+      </trans-unit>
+      <trans-unit id="8165394627161186491" datatype="html">
+        <source>El nombre es requerido</source>
+        <target state="translated">Name is required</target>
+      </trans-unit>
+      <trans-unit id="2064790252582515788" datatype="html">
+        <source>El email es requerido</source>
+        <target state="translated">Email is required</target>
+      </trans-unit>
+      <trans-unit id="6540737669791702297" datatype="html">
+        <source>Ingresa un email válido</source>
+        <target state="translated">Please enter a valid email</target>
+      </trans-unit>
+      <trans-unit id="8013744119479468097" datatype="html">
+        <source>Asunto</source>
+        <target state="translated">Subject</target>
+      </trans-unit>
+      <trans-unit id="1698044673025253527" datatype="html">
+        <source>El asunto es requerido</source>
+        <target state="translated">Subject is required</target>
+      </trans-unit>
+      <trans-unit id="6181392829528060012" datatype="html">
+        <source>Mensaje</source>
+        <target state="translated">Message</target>
+      </trans-unit>
+      <trans-unit id="6636883175212473162" datatype="html">
+        <source>El mensaje es requerido</source>
+        <target state="translated">Message is required</target>
+      </trans-unit>
+      <trans-unit id="3121276732294063548" datatype="html">
+        <source>Enviar mensaje</source>
+        <target state="translated">Send Message</target>
+      </trans-unit>
+      <trans-unit id="5731405754389427571" datatype="html">
+        <source>Enviando...</source>
+        <target state="translated">Sending...
+</target>
+      </trans-unit>
+      <trans-unit id="1016062841372493075" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa-check-circle&quot;>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> ¡Mensaje enviado correctamente! Me pondré en contacto contigo pronto. </source>
+        <target state="translated"><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa-check-circle&quot;>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> Message sent successfully! I will get in touch with you soon.</target>
+      </trans-unit>
+      <trans-unit id="7395315308706632784" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa-exclamation-circle&quot;>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> Ha ocurrido un error. Por favor, intenta nuevamente más tarde. </source>
+        <target state="translated"><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa-exclamation-circle&quot;>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> An error has occurred. Please try again later. </target>
+      </trans-unit>
+      <trans-unit id="8055584655328888835" datatype="html">
+        <source>Mis Habilidades</source>
+        <target state="translated">My Skills</target>
+      </trans-unit>
+      <trans-unit id="9053372260675860813" datatype="html">
+        <source>Tecnologías y herramientas que domino</source>
+        <target state="translated">Technologies and tools I am proficient in</target>
+      </trans-unit>
+      <trans-unit id="7116090608558894947" datatype="html">
+        <source>Otras Habilidades</source>
+        <target state="translated">Other Skills</target>
+      </trans-unit>
+      <trans-unit id="4442822880776737500" datatype="html">
+        <source>Siempre aprendiendo, siempre creciendo</source>
+        <target state="translated">Always learning, always growing</target>
+      </trans-unit>
+      <trans-unit id="8371017879184418566" datatype="html">
+        <source> El desarrollo web es un campo en constante evolución. Por eso me comprometo a seguir aprendiendo y mantenerme actualizado con las últimas tecnologías y mejores prácticas. </source>
+        <target state="translated"> Web development is a constantly evolving field. That’s why I am committed to continuous learning and staying up-to-date with the latest technologies and best practices. </target>
+      </trans-unit>
+      <trans-unit id="8484082028533266437" datatype="html">
+        <source>Conoce más sobre mí</source>
+        <target state="translated">Learn more about me</target>
       </trans-unit>
     </body>
   </file>
