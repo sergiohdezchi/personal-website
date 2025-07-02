@@ -18,75 +18,7 @@ interface SkillCategory {
   selector: 'app-skills',
   standalone: true,
   imports: [CommonModule, RouterLink],
-  template: `
-    <section class="skills-hero">
-      <div class="container">
-        <div class="content">
-          <h1 class="title">Mis Habilidades</h1>
-          <p class="subtitle">Tecnologías y herramientas que domino</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="skills-grid">
-      <div class="container">
-        <div class="skills-container">
-          <div class="skill-category" *ngFor="let category of skillCategories">
-            <div class="category-header">
-              <h2 class="category-title">{{ category.name }}</h2>
-              <div class="category-line"></div>
-            </div>
-
-            <div class="skills-list">
-              <div class="skill-card" *ngFor="let skill of category.skills">
-                <div class="skill-icon" [innerHTML]="skill.icon"></div>
-                <div class="skill-info">
-                  <div class="skill-header">
-                    <h3 class="skill-name">{{ skill.name }}</h3>
-                    <div class="skill-level">{{ getSkillLevelText(skill.level) }}</div>
-                  </div>
-
-                  <div class="skill-bar">
-                    <div class="skill-progress" [style.width.%]="skill.level"></div>
-                  </div>
-
-                  <p class="skill-description" *ngIf="skill.description">
-                    {{ skill.description }}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="other-skills">
-      <div class="container">
-        <h2 class="section-title">Otras Habilidades</h2>
-
-        <div class="other-skills-grid">
-          <div class="other-skill-item" *ngFor="let skill of otherSkills">
-            <div class="skill-icon" [innerHTML]="skill.icon"></div>
-            <h3 class="skill-name">{{ skill.name }}</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="education-cta">
-      <div class="container">
-        <div class="cta-content">
-          <h2>Siempre aprendiendo, siempre creciendo</h2>
-          <p>
-            El desarrollo web es un campo en constante evolución. Por eso me comprometo
-            a seguir aprendiendo y mantenerme actualizado con las últimas tecnologías y mejores prácticas.
-          </p>
-          <a routerLink="/about" class="btn btn-primary btn-lg">Conoce más sobre mí</a>
-        </div>
-      </div>
-    </section>
-  `,
+  templateUrl: './skills.component.html',
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent {

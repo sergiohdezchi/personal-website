@@ -1,8 +1,8 @@
 <section class="about-hero">
       <div class="container">
         <div class="content">
-          <h1 class="title">Sobre Mí</h1>
-          <div class="subtitle">Desarrollador Web Frontend</div>
+          <h1 class="title" i18n>Sobre Mí</h1>
+          <div class="subtitle" i18n>Desarrollador Web Frontend</div>
         </div>
       </div>
     </section>
@@ -17,38 +17,38 @@
           </div>
 
           <div class="about-text">
-            <h2 class="section-title">Mi Historia</h2>
-            <p class="bio">
+            <h2 class="section-title" i18n>Mi Historia</h2>
+            <p class="bio" i18n>
               ¡Hola! Soy Sergio Hernández, desarrollador web full stack. Me gusta construir cosas que no solo se vean bien, sino que realmente funcionen. Trabajo principalmente con Ruby on Rails, Java, Angular y React, y me enfoco en crear soluciones claras, útiles y fáciles de mantener.
             </p>
-            <p class="bio">
+            <p class="bio" i18n>
               Mi carrera comenzó con proyectos personales y trabajos freelance, donde aprendí a resolver desafíos concretos y a colaborar directamente con clientes. Después de graduarme como Ingeniero en Sistemas Computacionales, he tenido la oportunidad de colaborar en proyectos variados: desde sistemas empresariales hasta sitios web personalizados.
             </p>
-            <p class="bio">
+            <p class="bio" i18n>
               Más allá del código, me interesa mucho trabajar en equipo y aprender constantemente. Siempre estoy buscando formas de mejorar, ya sea optimizando un proceso, aprendiendo una nueva tecnología o afinando los detalles en la experiencia del usuario. Para mí, la tecnología tiene sentido cuando aporta valor real y ayuda a otros a avanzar.
             </p>
 
             <div class="personal-info">
               <div class="info-item">
-                <span class="label">Nombre:</span>
+                <span class="label" i18n>Nombre:</span>
                 <span class="value">Sergio Manuel Hernandez Chi</span>
               </div>
               <div class="info-item">
-                <span class="label">Email:</span>
+                <span class="label" i18n>Email:</span>
                 <span class="value">Sergiohdez.chi&#64;gmail.com</span>
               </div>
               <div class="info-item">
-                <span class="label">Ubicación:</span>
+                <span class="label" i18n>Ubicación:</span>
                 <span class="value">Mérida, Yucatán, México</span>
               </div>
               <div class="info-item">
-                <span class="label">Disponibilidad:</span>
+                <span class="label" i18n>Disponibilidad:</span>
                 <span class="value">Tiempo completo</span>
               </div>
             </div>
 
             <div class="cta-buttons">
-              <a href="docs/cv.pdf" class="btn btn-primary" download>Descargar CV</a>
+              <a href="docs/cv.pdf" class="btn btn-primary" i18n download>Descargar CV</a>
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@
 
     <section class="experience">
       <div class="container">
-        <h2 class="section-title text-center">Mi Experiencia</h2>
+        <h2 class="section-title text-center" i18n>Mi Experiencia</h2>
 
         <div class="timeline">
           <div class="timeline-item"
@@ -76,7 +76,7 @@
                 <span class="tech-tag" *ngFor="let tech of job.technologies">{{ tech }}</span>
               </div>
               <div class="view-more">
-                <span class="view-more-text">Ver más detalles</span>
+                <span class="view-more-text" i18n>Ver más detalles</span>
               </div>
             </div>
           </div>
@@ -86,7 +86,7 @@
 
     <section class="education">
       <div class="container">
-        <h2 class="section-title text-center">Mi Educación</h2>
+        <h2 class="section-title text-center" i18n>Mi Educación</h2>
 
         <div class="education-grid">
           <div class="education-card" *ngFor="let edu of education">
@@ -116,17 +116,17 @@
         </div>
 
         <div class="job-section">
-          <h4 class="section-label">Descripción</h4>
+          <h4 class="section-label" i18n>Descripción</h4>
           <p class="job-description">{{ selectedJob.description }}</p>
         </div>
 
         <div class="job-section">
-          <h4 class="section-label">Responsabilidades</h4>
+          <h4 class="section-label" i18n>Responsabilidades</h4>
           <p class="job-responsibilities">{{ selectedJob.responsibilities }}</p>
         </div>
 
         <div class="job-section">
-          <h4 class="section-label">Logros</h4>
+          <h4 class="section-label" i18n>Logros</h4>
           <ul class="achievements-list">
             <li *ngFor="let achievement of selectedJob.achievements">
               {{ achievement }}
@@ -135,14 +135,14 @@
         </div>
 
         <div class="job-section">
-          <h4 class="section-label">Tecnologías</h4>
+          <h4 class="section-label" i18n>Tecnologías</h4>
           <div class="modal-technologies">
             <span class="tech-tag" *ngFor="let tech of selectedJob.technologies">{{ tech }}</span>
           </div>
         </div>
 
         <div *ngIf="selectedJob.url" class="job-section job-link-section">
-          <a [href]="selectedJob.url" target="_blank" rel="noopener noreferrer" class="company-link">
+          <a [href]="selectedJob.url" target="_blank" rel="noopener noreferrer" class="company-link" i18n>
             Visitar sitio web de la empresa
             <span class="link-icon">→</span>
           </a>

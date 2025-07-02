@@ -1,56 +1,133 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+  <file source-language="es" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="nav.home" datatype="html">
         <source>Inicio</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
-          <context context-type="linenumber">19,20</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">9,10</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
-          <context context-type="linenumber">35,36</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">25,26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="nav.about" datatype="html">
         <source>Sobre mí</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
-          <context context-type="linenumber">20,21</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">10,11</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
-          <context context-type="linenumber">36,37</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">26,27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="nav.skills" datatype="html">
         <source>Habilidades</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
-          <context context-type="linenumber">21,22</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">11,12</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
-          <context context-type="linenumber">37,38</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">27,28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="nav.contact" datatype="html">
         <source>Contacto</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
-          <context context-type="linenumber">22,23</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">12,13</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
-          <context context-type="linenumber">38,39</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">28,29</context>
         </context-group>
       </trans-unit>
       <trans-unit id="nav.language" datatype="html">
         <source>Idioma:</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
-          <context context-type="linenumber">40,41</context>
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.presentation.greeting" datatype="html">
+        <source>Hola, soy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.presentation.name" datatype="html">
+        <source>Sergio Hernandez</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.presentation.profession" datatype="html">
+        <source>Desarrollador Web Full Stack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.presentation.description" datatype="html">
+        <source> Desarrollo soluciones web modernas que generan valor real. Soy Ingeniero de Software con experiencia como Fullstack, combino un backend sólido y escalable con una interfaz intuitiva, siempre enfocado en la calidad, el rendimiento y la mantenibilidad del software. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">11,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.presentation.contact" datatype="html">
+        <source>Contactar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.presentation.slice" datatype="html">
+        <source>Desliza</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">42,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.skills.title" datatype="html">
+        <source>Mis Habilidades</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">51,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.skills.button" datatype="html">
+        <source>Ver todas mis habilidades</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">66,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.contact.title" datatype="html">
+        <source>¿Interesado en trabajar juntos?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">74,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.contact.description" datatype="html">
+        <source> Estoy disponible para proyectos interesantes o discutir oportunidades laborales. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">76,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.contact.button" datatype="html">
+        <source>Contáctame</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">78,81</context>
         </context-group>
       </trans-unit>
     </body>
