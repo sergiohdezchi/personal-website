@@ -66,6 +66,10 @@
 
     li {
       margin-left: 2rem;
+      
+      &.lang-selector-item {
+        margin-left: 2.5rem;
+      }
 
       a {
         color: var(--text-dark);
@@ -163,6 +167,20 @@
 
       li {
         margin-bottom: 1.5rem;
+        
+        &.mobile-lang-selector {
+          margin-top: 2.5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          
+          .lang-label {
+            color: var(--text-light);
+            opacity: 0.8;
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+          }
+        }
 
         a {
           color: var(--text-light);

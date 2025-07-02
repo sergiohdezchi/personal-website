@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { LanguageSelectorComponent } from '../../shared/components/language-selector/language-selector.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, RouterLink, RouterLinkActive],
+  imports: [CommonModule, RouterLink, RouterLinkActive, LanguageSelectorComponent],
   template: `
     <header class="header" [class.scrolled]="isScrolled">
       <div class="container">
@@ -15,10 +16,11 @@ import { CommonModule } from '@angular/common';
 
         <nav class="nav">
           <ul class="nav-list">
-            <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Inicio</a></li>
-            <li><a routerLink="/about" routerLinkActive="active">Sobre mí</a></li>
-            <li><a routerLink="/skills" routerLinkActive="active">Habilidades</a></li>
-            <li><a routerLink="/contact" routerLinkActive="active">Contacto</a></li>
+            <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" i18n="@@nav.home">Inicio</a></li>
+            <li><a routerLink="/about" routerLinkActive="active" i18n="@@nav.about">Sobre mí</a></li>
+            <li><a routerLink="/skills" routerLinkActive="active" i18n="@@nav.skills">Habilidades</a></li>
+            <li><a routerLink="/contact" routerLinkActive="active" i18n="@@nav.contact">Contacto</a></li>
+            <li class="lang-selector-item"><app-language-selector></app-language-selector></li>
           </ul>
         </nav>
 
@@ -30,10 +32,14 @@ import { CommonModule } from '@angular/common';
 
         <div class="mobile-menu" [class.open]="mobileMenuOpen">
           <ul class="mobile-nav-list">
-            <li><a routerLink="/" (click)="closeMobileMenu()">Inicio</a></li>
-            <li><a routerLink="/about" (click)="closeMobileMenu()">Sobre mí</a></li>
-            <li><a routerLink="/skills" (click)="closeMobileMenu()">Habilidades</a></li>
-            <li><a routerLink="/contact" (click)="closeMobileMenu()">Contacto</a></li>
+            <li><a routerLink="/" (click)="closeMobileMenu()" i18n="@@nav.home">Inicio</a></li>
+            <li><a routerLink="/about" (click)="closeMobileMenu()" i18n="@@nav.about">Sobre mí</a></li>
+            <li><a routerLink="/skills" (click)="closeMobileMenu()" i18n="@@nav.skills">Habilidades</a></li>
+            <li><a routerLink="/contact" (click)="closeMobileMenu()" i18n="@@nav.contact">Contacto</a></li>
+            <li class="mobile-lang-selector">
+              <div class="lang-label" i18n="@@nav.language">Idioma:</div>
+              <app-language-selector></app-language-selector>
+            </li>
           </ul>
         </div>
       </div>

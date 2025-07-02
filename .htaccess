@@ -1,0 +1,53 @@
+# Configuración para servir un sitio estático multilenguaje en Hostinger
+# Maneja redirecciones y encabezados para la aplicación Angular
+
+# Habilita rewriting
+RewriteEngine On
+
+# Si el directorio o archivo solicitado existe, sirve directamente
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Redirección para idiomas no incluidos en la URL
+RewriteCond %{REQUEST_URI} !^/(es|en)/
+RewriteCond %{HTTP:Accept-Language} ^(es) [NC]
+RewriteRule ^(.*)$ /es/$1 [L,R=302]
+
+# Redirección para idiomas no incluidos en la URL y sin preferencia detectada
+RewriteCond %{REQUEST_URI} !^/(es|en)/
+RewriteRule ^(.*)$ /es/$1 [L,R=302]
+
+# Rewriting para rutas de aplicación Angular
+RewriteCond %{REQUEST_URI} ^/(es|en)/
+RewriteRule ^(es|en)/(.*) /$1/index.html [L]
+
+# Encabezados de seguridad
+<IfModule mod_headers.c>
+  # No permitir que el sitio sea mostrado en un iframe
+  Header always set X-Frame-Options "DENY"
+  
+  # Ayuda a prevenir algunos ataques XSS
+  Header always set X-XSS-Protection "1; mode=block"
+  
+  # Evita que el navegador "adivine" el tipo MIME
+  Header always set X-Content-Type-Options "nosniff"
+  
+  # Configuración de caché para mejorar el rendimiento
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "max-age=0, private, no-cache, no-store, must-revalidate"
+  </FilesMatch>
+  
+  <FilesMatch "\.(css|js|json)$">
+    Header set Cache-Control "public, max-age=86400, stale-while-revalidate=86400"
+  </FilesMatch>
+  
+  <FilesMatch "\.(jpg|jpeg|png|gif|ico|svg|webp|woff|woff2|ttf|otf|eot)$">
+    Header set Cache-Control "public, max-age=2592000, stale-while-revalidate=86400"
+  </FilesMatch>
+</IfModule>
+
+# Comprimir archivos para mejor rendimiento
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml
+</IfModule>

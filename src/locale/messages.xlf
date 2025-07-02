@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="nav.home" datatype="html">
+        <source>Inicio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.about" datatype="html">
+        <source>Sobre mí</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.skills" datatype="html">
+        <source>Habilidades</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.contact" datatype="html">
+        <source>Contacto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.language" datatype="html">
+        <source>Idioma:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.ts</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
