@@ -30,61 +30,61 @@ export class SkillsComponent {
           name: 'Ruby',
           level: 90,
           icon: '<i class="fa-regular fa-gem"></i>',
-          description: 'Desarrollo de aplicaciones web con Ruby on Rails, RESTful APIs y patrones MVC'
+          description: $localize `Desarrollo de aplicaciones web con Ruby on Rails, RESTful APIs, patrones MVC y microservicios`
         },
         {
           name: 'Java',
           level: 80,
           icon: '<i class="fas fa-server"></i>',
-          description: 'Desarrollo de aplicaciones empresariales con Spring Boot, Hibernate y patrones de diseño'
+          description: $localize `Desarrollo de aplicaciones empresariales con Spring Boot, Hibernate y patrones de diseño`
         },
         {
           name: 'Python',
           level: 70,
           icon: '<i class="fab fa-python"></i>',
-          description: 'Desarrollo de scripts, automatización de tareas y aplicaciones web con Django y Flask'
+          description: $localize `Desarrollo de scripts, automatización de tareas y aplicaciones web con Django`
         },
         {
           name: 'Node.js',
-          level: 75,
+          level: 70,
           icon: '<i class="fab fa-node-js"></i>',
-          description: 'Desarrollo de aplicaciones backend con Express.js, manejo de eventos y APIs RESTful'
+          description: $localize `Desarrollo de aplicaciones backend con Express.js y APIs RESTful`
         },
         {
           name: 'PHP',
           level: 80,
           icon: '<i class="fab fa-php"></i>',
-          description: 'Desarrollo de aplicaciones web con Laravel, Symfony y manejo de bases de datos MySQL'
+          description: $localize `Desarrollo de aplicaciones web con Laravel, Yii y manejo de bases de datos MySQL`
         },
         {
           name: 'MongoDB',
           level: 75,
           icon: '<i class="fas fa-database"></i>',
-          description: 'Diseño de esquemas, índices, agregaciones y optimización de consultas'
+          description: $localize `Diseño de bases de datos NoSQL y consultas avanzadas`
         },
         {
           name: 'PostgreSQL',
           level: 85,
           icon: '<i class="fas fa-database"></i>',
-          description: 'Diseño de bases de datos relacionales, consultas avanzadas, optimización de rendimiento y manejo de transacciones'
+          description: $localize `Diseño de bases de datos relacionales, consultas avanzadas, optimización de rendimiento y manejo de transacciones`
         },
         {
           name: 'Apache Kafka',
-          level: 70,
+          level: 80,
           icon: '<i class="fas fa-stream"></i>',
-          description: 'Implementación de sistemas de mensajería distribuida, manejo de eventos y procesamiento en tiempo real'
+          description: $localize `Implementación de sistemas de mensajería distribuida, manejo de eventos y procesamiento en tiempo real`
         },
         {
           name: 'Redis',
           level: 75,
           icon: '<i class="fas fa-memory"></i>',
-          description: 'Uso como base de datos en memoria, caché y sistema de colas'
+          description: $localize `Uso de caché y sistema de colas para mejorar el rendimiento de aplicaciones web`
         },
         {
           name: 'Elasticsearch',
-          level: 70,
+          level: 60,
           icon: '<i class="fas fa-search"></i>',
-          description: 'Implementación de búsqueda avanzada, análisis de datos y optimización de rendimiento'
+          description: $localize `Implementación de búsqueda avanzada, análisis de datos y optimización de rendimiento`
         }
       ]
     },
@@ -95,66 +95,66 @@ export class SkillsComponent {
           name: 'Angular',
           level: 70,
           icon: '<i class="fab fa-angular"></i>',
-          description: 'Desarrollo de aplicaciones web SPA con Angular 12+, utilizando RxJS, NgRx, Angular Material y SSR'
+          description: $localize `Desarrollo de aplicaciones web SPA con Angular 12+, utilizando RxJS, NgRx, Angular Material y SSR`
         },
         {
           name: 'React',
           level: 70,
           icon: '<i class="fab fa-react"></i>',
-          description: 'Desarrollo de componentes reutilizables, implementación de React Hooks y manejo de estado con Redux'
+          description: $localize `Desarrollo de componentes reutilizables, implementación de React Hooks y manejo de estado con Redux`
         },
         {
           name: 'TypeScript',
           level: 70,
           icon: '<i class="fab fa-js"></i>',
-          description: 'Programación orientada a objetos, tipos genéricos, interfaces avanzadas y patrones de diseño'
+          description: $localize `Programación orientada a objetos, tipos genéricos, interfaces y patrones de diseño`
         },
         {
           name: 'CSS/SASS',
           level: 90,
           icon: '<i class="fab fa-sass"></i>',
-          description: 'Implementación de diseños responsivos, animaciones, grid layouts y metodología BEM'
+          description: $localize `Implementación de diseños responsivos, animaciones y grid layouts`
         },
         {
           name: 'HTML5',
-          level: 95,
+          level: 90,
           icon: '<i class="fab fa-html5"></i>',
-          description: 'Markup semántico, accesibilidad web (WCAG), SEO y buenas prácticas'
+          description: $localize `Estructuración semántica de documentos, formularios avanzados y accesibilidad web`
         },
         {
           name: 'Hotwre JS',
-          level: 95,
+          level: 70,
           icon: '<i class="fas fa-bolt"></i>',
-          description: 'Desarrollo de aplicaciones web interactivas con Hotwire, Turbo y Stimulus para una experiencia de usuario fluida'
+          description: $localize `Desarrollo de aplicaciones web interactivas con Hotwire, Turbo y Stimulus para una experiencia de usuario fluida`
         }
       ]
     },
     {
-      name: 'DevOps & Herramientas',
+      name: $localize `DevOps & Herramientas`,
       skills: [
         {
           name: 'Git',
           level: 90,
           icon: '<i class="fab fa-git-alt"></i>',
-          description: 'Control de versiones, branching strategies, resolución de conflictos y workflows'
+          description: $localize `Control de versiones, ramas, merges y flujos de trabajo colaborativos`
         },
         {
           name: 'Docker',
           level: 70,
           icon: '<i class="fab fa-docker"></i>',
-          description: 'Contenedorización de aplicaciones, Docker Compose y optimización de imágenes'
+          description: $localize `Contenedorización de aplicaciones, Docker Compose`
         },
         {
           name: 'Postman',
           level: 80,
           icon: '<i class="fas fa-paper-plane"></i>',
-          description: 'Pruebas de APIs, manejo de entornos y generación de documentación'
+          description: $localize `Pruebas de APIs, manejo de entornos y generación de documentación`
         },
         {
           name: 'Jira',
-          level: 75,
+          level: 80,
           icon: '<i class="fab fa-jira"></i>',
-          description: 'Gestión de proyectos ágiles, Scrum, Kanban y seguimiento de tareas'
+          description: $localize `Gestión de proyectos ágiles, Scrum y seguimiento de tareas`
         }
       ]
     }
@@ -168,10 +168,10 @@ export class SkillsComponent {
   ];
 
   getSkillLevelText(level: number): string {
-    if (level >= 90) return 'Experto';
-    if (level >= 75) return 'Avanzado';
-    if (level >= 60) return 'Intermedio';
-    if (level >= 40) return 'Básico';
-    return 'Principiante';
+    if (level >= 90) return $localize `Experto`;
+    if (level >= 75) return $localize `Avanzado`;
+    if (level >= 60) return $localize `Intermedio`;
+    if (level >= 40) return $localize `Básico`;
+    return $localize `Principiante`;
   }
 }

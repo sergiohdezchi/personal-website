@@ -117,7 +117,7 @@ export class HomeComponent implements OnInit {
       ]
     },
     {
-      name: 'Herramientas',
+      name: $localize `Herramientas`,
       skills: [
         { name: 'Git', icon: '<i class="fab fa-git-alt"></i>' },
         { name: 'Docker', icon: '<i class="fab fa-docker"></i>' },

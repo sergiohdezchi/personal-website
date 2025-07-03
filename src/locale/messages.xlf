@@ -206,6 +206,180 @@
       <trans-unit id="8484082028533266437" datatype="html">
         <source>Conoce más sobre mí</source>
       </trans-unit>
+      <trans-unit id="1061021259627416435" datatype="html">
+        <source>Diseño y desarrollo de sitio web, implementación de soluciones personalizadas, soporte interno.</source>
+      </trans-unit>
+      <trans-unit id="1270951863407045099" datatype="html">
+        <source>Desarrollo de scripts, automatización de tareas y aplicaciones web con Django</source>
+      </trans-unit>
+      <trans-unit id="1485987142456224872" datatype="html">
+        <source>Desarrollo de aplicaciones web con Laravel, Yii y manejo de bases de datos MySQL</source>
+      </trans-unit>
+      <trans-unit id="2805621926994048812" datatype="html">
+        <source>Optimicé consultas SQL complejas reduciendo el tiempo de respuesta</source>
+      </trans-unit>
+      <trans-unit id="1579451734335179472" datatype="html">
+        <source>Principiante</source>
+      </trans-unit>
+      <trans-unit id="1783774223329119060" datatype="html">
+        <source>Implementación de sistemas de mensajería distribuida, manejo de eventos y procesamiento en tiempo real</source>
+      </trans-unit>
+      <trans-unit id="1812395332697400087" datatype="html">
+        <source>Desarrollo de aplicaciones web para gestión de propiedades. Implementación de nuevas características y optimización del rendimiento de la aplicación.</source>
+      </trans-unit>
+      <trans-unit id="2007228821610500596" datatype="html">
+        <source>Desarrollador Web</source>
+      </trans-unit>
+      <trans-unit id="2074208391677270165" datatype="html">
+        <source>Desarrollo de aplicaciones web interactivas con Hotwire, Turbo y Stimulus para una experiencia de usuario fluida</source>
+      </trans-unit>
+      <trans-unit id="196031979611035516" datatype="html">
+        <source>Desarrollé un sistema de gestión de tickets que redujo el tiempo de resolución de incidencias</source>
+      </trans-unit>
+      <trans-unit id="227512105879718283" datatype="html">
+        <source>Desarrollo de aplicaciones web para gestión de telecomunicaciones. Implementación de nuevas funcionalidades y mantenimiento de la plataforma de tickets.</source>
+      </trans-unit>
+      <trans-unit id="165589881430398224" datatype="html">
+        <source>Implementé una nueva interfaz de usuario utilizando Tailwind CSS y Hotwire JS que mejoró el tiempo de carga</source>
+      </trans-unit>
+      <trans-unit id="2342826252825930158" datatype="html">
+        <source>Desarrollo de aplicaciones web con Ruby on Rails, RESTful APIs, patrones MVC y microservicios</source>
+      </trans-unit>
+      <trans-unit id="2458509968525641239" datatype="html">
+        <source>Desarrollo de componentes reutilizables, implementación de React Hooks y manejo de estado con Redux</source>
+      </trans-unit>
+      <trans-unit id="2681293034702326635" datatype="html">
+        <source>Implementé nuevos endpoints API para integrar el frontend con el backend en el wizard de registro de propiedades</source>
+      </trans-unit>
+      <trans-unit id="2771602306299496278" datatype="html">
+        <source>Automatización de correos para notificar a inquilinos y propietarios sobre nuevos eventos en tiempo real</source>
+      </trans-unit>
+      <trans-unit id="2834285096566441728" datatype="html">
+        <source>Integracion de plataforma de rastreo de embarcaciones por satelite</source>
+      </trans-unit>
+      <trans-unit id="3140793183257119739" datatype="html">
+        <source>Implementación de diseños responsivos, animaciones y grid layouts</source>
+      </trans-unit>
+      <trans-unit id="379605859653667973" datatype="html">
+        <source>Uso de caché y sistema de colas para mejorar el rendimiento de aplicaciones web</source>
+      </trans-unit>
+      <trans-unit id="4087179132428770241" datatype="html">
+        <source>Participé activamente en revisiones de código y procesos de integración continua</source>
+      </trans-unit>
+      <trans-unit id="4228882779808052356" datatype="html">
+        <source>Estructuración semántica de documentos, formularios avanzados y accesibilidad web</source>
+      </trans-unit>
+      <trans-unit id="4291777569815602748" datatype="html">
+        <source>Actualización de sistema de streaming de videos para clientes</source>
+      </trans-unit>
+      <trans-unit id="4509086663832694598" datatype="html">
+        <source>Básico</source>
+      </trans-unit>
+      <trans-unit id="4646771364038884567" datatype="html">
+        <source>Desarrollo de funcionalidades, optimización de consultas en MongoDB, implementación de interfaces de usuario con Angular y React, integración de servicios de terceros.</source>
+      </trans-unit>
+      <trans-unit id="4699701614674112739" datatype="html">
+        <source>Implementación de búsqueda avanzada, análisis de datos y optimización de rendimiento</source>
+      </trans-unit>
+      <trans-unit id="4734114916345852171" datatype="html">
+        <source>Herramientas</source>
+      </trans-unit>
+      <trans-unit id="4758676679182863775" datatype="html">
+        <source>Desarrollé integraciones con múltiples proveedores de logística mediante APIs REST</source>
+      </trans-unit>
+      <trans-unit id="4835434377657556371" datatype="html">
+        <source>Actualicé la plataforma de gestión de telecomunicaciones con un nuevo diseño responsivo utilizando Bootstrap</source>
+      </trans-unit>
+      <trans-unit id="4886952505119891703" datatype="html">
+        <source>Programación orientada a objetos, tipos genéricos, interfaces y patrones de diseño</source>
+      </trans-unit>
+      <trans-unit id="5074894808777935344" datatype="html">
+        <source>Diseñé y desarrollé la lógica para el cálculo dinámico de precios de renta y comisiones, adaptado a cada tipo de usuario</source>
+      </trans-unit>
+      <trans-unit id="5116545188025405440" datatype="html">
+        <source>Desarrollador FullStack</source>
+      </trans-unit>
+      <trans-unit id="5144674057684860473" datatype="html">
+        <source>Diseño de bases de datos NoSQL y consultas avanzadas</source>
+      </trans-unit>
+      <trans-unit id="5752581761013226856" datatype="html">
+        <source>Avanzado</source>
+      </trans-unit>
+      <trans-unit id="5856161378154232766" datatype="html">
+        <source>Desarrollé un CMS personalizado para gestión de contenidos de sitios web</source>
+      </trans-unit>
+      <trans-unit id="5872863621526162578" datatype="html">
+        <source>Desarrollo de características frontend y backend, optimización de rendimiento, integración de APIs, resolución de bugs críticos y mantenimiento de la plataforma.</source>
+      </trans-unit>
+      <trans-unit id="590421476154361821" datatype="html">
+        <source>Desarrollo de aplicaciones backend con Express.js y APIs RESTful</source>
+      </trans-unit>
+      <trans-unit id="6049954131782949137" datatype="html">
+        <source>Desarrollo de sistemas web, implementación de APIs RESTful, mantenimiento de aplicaciones existentes, creación de reportes y dashboards.</source>
+      </trans-unit>
+      <trans-unit id="6117511403275733508" datatype="html">
+        <source>DevOps &amp; Herramientas</source>
+      </trans-unit>
+      <trans-unit id="6125395385830072253" datatype="html">
+        <source>Gestión de proyectos ágiles, Scrum y seguimiento de tareas</source>
+      </trans-unit>
+      <trans-unit id="6158686118927798783" datatype="html">
+        <source>Control de versiones, ramas, merges y flujos de trabajo colaborativos</source>
+      </trans-unit>
+      <trans-unit id="6298850762245598779" datatype="html">
+        <source>Ingeniero en sistemas computacionales</source>
+      </trans-unit>
+      <trans-unit id="6474142669593110460" datatype="html">
+        <source>Formación técnica enfocada en el uso de herramientas informáticas, administración de sistemas y soporte técnico. Aprendizaje de lenguajes de programación básicos y desarrollo web inicial.</source>
+      </trans-unit>
+      <trans-unit id="6483828600361307776" datatype="html">
+        <source>Diseño de bases de datos relacionales, consultas avanzadas, optimización de rendimiento y manejo de transacciones</source>
+      </trans-unit>
+      <trans-unit id="6527645290611461613" datatype="html">
+        <source>Contenedorización de aplicaciones, Docker Compose</source>
+      </trans-unit>
+      <trans-unit id="6531856791321714114" datatype="html">
+        <source>Desarrollo de aplicaciones web SPA con Angular 12+, utilizando RxJS, NgRx, Angular Material y SSR</source>
+      </trans-unit>
+      <trans-unit id="6997846955761134435" datatype="html">
+        <source>Formación en desarrollo de software, bases de datos, redes y sistemas operativos. Participación en proyectos académicos y prácticas profesionales.</source>
+      </trans-unit>
+      <trans-unit id="7155538736841163393" datatype="html">
+        <source>Desarrollo de aplicaciones web escalables y optimización de procesos internos. Implementación de nuevas funcionalidades y mantenimiento de la plataforma de logistica.</source>
+      </trans-unit>
+      <trans-unit id="7180819346904258895" datatype="html">
+        <source>Mejoré la velocidad de carga de sitios web optimizando imágenes y recursos estáticos</source>
+      </trans-unit>
+      <trans-unit id="7244966257963586851" datatype="html">
+        <source>Desarrollo de sitio web y aplicaciones para clientes locales. Implementación de soluciones personalizadas y mantenimiento de sitio</source>
+      </trans-unit>
+      <trans-unit id="5430886959526818755" datatype="html">
+        <source>Desarrollé un sistema de búsqueda avanzada de propiedades utilizando Elasticsearch, mejorando la relevancia y velocidad de resultados</source>
+      </trans-unit>
+      <trans-unit id="7463824034173163193" datatype="html">
+        <source>Desarrollo de aplicaciones empresariales con Spring Boot, Hibernate y patrones de diseño</source>
+      </trans-unit>
+      <trans-unit id="7551953552226176591" datatype="html">
+        <source>Técnico en computación administrativa</source>
+      </trans-unit>
+      <trans-unit id="7838195961009889617" datatype="html">
+        <source>Creé un sitio web corporativo para una empresa local que incrementó su visibilidad en línea</source>
+      </trans-unit>
+      <trans-unit id="8054837583447445350" datatype="html">
+        <source>Experto</source>
+      </trans-unit>
+      <trans-unit id="8403188205927874938" datatype="html">
+        <source>Proporcioné soporte técnico y mantenimiento continuo</source>
+      </trans-unit>
+      <trans-unit id="8410541882862454603" datatype="html">
+        <source>Intermedio</source>
+      </trans-unit>
+      <trans-unit id="848277225423859805" datatype="html">
+        <source>Desarrollé el núcleo del módulo de rastreo, pieza central para el seguimiento de envíos</source>
+      </trans-unit>
+      <trans-unit id="917716637944780652" datatype="html">
+        <source>Pruebas de APIs, manejo de entornos y generación de documentación</source>
+      </trans-unit>
     </body>
   </file>
 </xliff>
