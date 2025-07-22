@@ -59,13 +59,13 @@ cat > dist/personal-website/browser/index.html << EOF
     // Detectar el idioma preferido del navegador
     const userLang = navigator.language || navigator.userLanguage;
     const supportedLangs = ['es', 'en'];
-    
+
     // Extraer el código de idioma principal
     const langCode = userLang.split('-')[0].toLowerCase();
-    
+
     // Verificar si el idioma es soportado, si no usar español por defecto
     const targetLang = supportedLangs.includes(langCode) ? langCode : 'es';
-    
+
     // Redirigir a la versión correspondiente
     window.location.replace('/' + targetLang + '/');
   </script>

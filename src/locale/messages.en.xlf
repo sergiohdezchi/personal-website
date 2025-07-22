@@ -506,6 +506,106 @@
         <source>Principiante</source>
         <target state="translated">Beginner</target>
       </trans-unit>
+      <trans-unit id="nav.projects" datatype="html">
+        <source>Proyectos</source>
+        <target state="translated">Projects</target>
+      </trans-unit>
+      <trans-unit id="2919807316136478584" datatype="html">
+        <source>Aplicación web del clima con backend en Rails y frontend moderno en React.</source>
+        <target state="translated">Weather web application with a Rails backend and a modern React frontend.</target>
+      </trans-unit>
+      <trans-unit id="9076077681889972568" datatype="html">
+        <source>Frontend en Angular para la gestión de facturación digital.</source>
+        <target state="translated">Angular frontend for digital billing management.</target>
+      </trans-unit>
+      <trans-unit id="9044678496659607623" datatype="html">
+        <source>Aplicación web de reservas de restaurante con frontend moderno en Angular.</source>
+        <target state="translated">Restaurant reservation web application with a modern Angular frontend.</target>
+      </trans-unit>
+      <trans-unit id="2033941612222056441" datatype="html">
+        <source>Mis Proyectos</source>
+        <target state="translated">My Projects</target>
+      </trans-unit>
+      <trans-unit id="6513289999867296786" datatype="html">
+        <source>Una muestra de mi trabajo y experiencia</source>
+        <target state="translated">A showcase of my work and experience</target>
+      </trans-unit>
+      <trans-unit id="7259597713670647949" datatype="html">
+        <source> Todos </source>
+        <target state="translated">All</target>
+      </trans-unit>
+      <trans-unit id="707558923688966923" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fab fa-github&quot;>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> Código </source>
+        <target state="translated"><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fab fa-github&quot;>"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i>"/> Code </target>
+      </trans-unit>
+      <trans-unit id="2190435020784186603" datatype="html">
+        <source>Más detalles</source>
+        <target state="translated">More details</target>
+      </trans-unit>
+      <trans-unit id="5064953288722785546" datatype="html">
+        <source>Menos detalles</source>
+        <target state="translated">Less details</target>
+      </trans-unit>
+      <trans-unit id="8737916100543506928" datatype="html">
+        <source>No se encontraron proyectos</source>
+        <target state="translated">No projects found.</target>
+      </trans-unit>
+      <trans-unit id="5560710868759388318" datatype="html">
+        <source>Intenta con otro término de búsqueda o categoría</source>
+        <target state="translated">Try a different search term or category.</target>
+      </trans-unit>
+      <trans-unit id="7778344095313279790" datatype="html">
+        <source>Mostrar todos los proyectos</source>
+        <target state="translated">Show all projects</target>
+      </trans-unit>
+      <trans-unit id="3414416858317987776" datatype="html">
+        <source>¿Tienes un proyecto en mente?</source>
+        <target state="translated">Do you have a project in mind?</target>
+      </trans-unit>
+      <trans-unit id="1186980819185322048" datatype="html">
+        <source>Estoy disponible para nuevos proyectos y colaboraciones. Hablemos sobre cómo puedo ayudarte.</source>
+        <target state="translated">I am available for new projects and collaborations. Let's talk about how I can help you.</target>
+      </trans-unit>
+      <trans-unit id="5879236925760741065" datatype="html">
+        <source>Contáctame</source>
+        <target state="translated">Contact me</target>
+      </trans-unit>
+      <trans-unit id="1916559771457404189" datatype="html">
+        <source>Weather App es una solución full stack que permite consultar el clima actual y pronósticos por ciudad. El backend está desarrollado en Ruby on Rails con PostgreSQL, Redis y autenticación OAuth 2.0 (Doorkeeper + Devise). El frontend usa React, TypeScript, Material UI y Redux Toolkit, optimizado con Vite. El sistema está dockerizado y se conecta a la API de OpenWeather.</source>
+        <target state="translated">Weather App is a full-stack solution that allows users to check the current weather and forecasts by city. The backend is developed with Ruby on Rails using PostgreSQL, Redis, and OAuth 2.0 authentication (Doorkeeper + Devise). The frontend uses React, TypeScript, Material UI, and Redux Toolkit, optimized with Vite. The system is dockerized and connects to the OpenWeather API.</target>
+      </trans-unit>
+      <trans-unit id="8300161447127731536" datatype="html">
+        <source>Invoice App es una aplicación de frontend desarrollada con Angular, TypeScript y Angular Material, diseñada para integrarse con una API personalizada. Permite a los usuarios crear, visualizar y administrar facturas de manera eficiente, con una interfaz intuitiva y responsiva.</source>
+        <target state="translated">Invoice App is a frontend application developed with Angular, TypeScript, and Angular Material, designed to integrate with a custom API. It allows users to create, view, and manage invoices efficiently, featuring an intuitive and responsive interface.</target>
+      </trans-unit>
+      <trans-unit id="6360486460501765326" datatype="html">
+        <source>API REST para la gestión de facturas con autenticación y procesamiento en background.</source>
+        <target state="translated">REST API for invoice management with authentication and background processing.</target>
+      </trans-unit>
+      <trans-unit id="5318334602138083936" datatype="html">
+        <source>Invoice API es un backend en Ruby on Rails que expone una API REST para manejar operaciones relacionadas con facturación electrónica. Usa PostgreSQL como base de datos, Redis como almacenamiento de caché y Sidekiq para procesamiento de tareas asíncronas. Incluye autenticación, validaciones y está preparado para integrarse con frontend externos.</source>
+        <target state="translated">Invoice API is a Ruby on Rails backend that exposes a REST API to handle electronic invoicing operations. It uses PostgreSQL as the database, Redis for caching, and Sidekiq for asynchronous job processing. It includes authentication, validations, and is ready to integrate with external frontends.</target>
+      </trans-unit>
+      <trans-unit id="4607980339697820436" datatype="html">
+        <source>Microservicio en Java para la gestión de pedidos, con mensajería y arquitectura escalable.</source>
+        <target state="translated">Java microservice for order management, featuring messaging and scalable architecture.</target>
+      </trans-unit>
+      <trans-unit id="4717175507507045527" datatype="html">
+        <source>Orders Service es un microservicio backend desarrollado en Java con Spring Boot. Implementa seguridad con JWT, persistencia en MongoDB, mensajería asíncrona con Apache Kafka y contenedorización con Docker Compose. Utiliza Maven como herramienta de construcción y sigue una arquitectura moderna enfocada en microservicios.</source>
+        <target state="translated">Orders Service is a backend microservice developed in Java with Spring Boot. It implements security with JWT, persistence using MongoDB, asynchronous messaging with Apache Kafka, and containerization with Docker Compose. It uses Maven as the build tool and follows a modern microservices-focused architecture.</target>
+      </trans-unit>
+      <trans-unit id="3463541258255142195" datatype="html">
+        <source>Aplicación SPA desarrollada en Angular que permite a los usuarios explorar menús, seleccionar horarios disponibles y realizar reservas en línea. Integra pagos vía PayPal y ofrece una experiencia fluida con RxJS, SCSS y Material UI. Funciona junto con una API REST creada en Java Spring Boot para manejar autenticación y persistencia.</source>
+        <target state="translated">Single-page application (SPA) developed in Angular that allows users to browse menus, select available time slots, and make online reservations. It integrates PayPal payments and offers a smooth experience using RxJS, SCSS, and Material UI. It works alongside a REST API built with Java Spring Boot to handle authentication and persistence.</target>
+      </trans-unit>
+      <trans-unit id="3681771908411835563" datatype="html">
+        <source>API RESTful en Java Spring Boot para gestión de reservas y pagos.</source>
+        <target state="translated">RESTful API in Java Spring Boot for reservation and payment management.</target>
+      </trans-unit>
+      <trans-unit id="871954130521028155" datatype="html">
+        <source>API desarrollada con Java Spring Boot para manejar la lógica de reservas de un restaurante, autenticación JWT, control de usuarios, validaciones y pagos con PayPal. Utiliza PostgreSQL como base de datos, está documentada con Swagger y construida con Maven. Incluye seguridad con Spring Security.</source>
+        <target state="translated">API developed with Java Spring Boot to handle restaurant reservation logic, JWT authentication, user management, validations, and PayPal payments. It uses PostgreSQL as the database, is documented with Swagger, and built with Maven. Security is implemented using Spring Security.</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

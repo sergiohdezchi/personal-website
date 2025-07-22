@@ -26,7 +26,7 @@
   overflow-y: auto;
   position: relative;
   color: var(--text-dark);
-  
+
   &:focus {
     outline: none;
   }
@@ -66,7 +66,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   &:hover {
     color: var(--text-dark);
     background-color: var(--bg-hover);

@@ -68,6 +68,35 @@
   </div>
 </section>
 
+<section class="featured-projects">
+  <div class="container">
+    <h2 class="section-title" @fadeInUp>Proyectos Destacados</h2>
+
+    <div class="projects-grid">
+      <div class="project-card" *ngFor="let project of featuredProjects; let i = index" @cardAnimation>
+        <div class="project-image">
+          <img [src]="project.image" [alt]="project.title">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">{{ project.title }}</h3>
+          <p class="project-description">{{ project.description }}</p>
+          <div class="project-tags">
+            <span class="tag" *ngFor="let tag of project.tags">{{ tag }}</span>
+          </div>
+          <div class="project-links">
+            <a [href]="project.demoUrl" target="_blank" class="project-link">Demo</a>
+            <a [href]="project.repoUrl" target="_blank" class="project-link">Código</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cta-center">
+      <a routerLink="/projects" class="btn btn-primary">Ver todos los proyectos</a>
+    </div>
+  </div>
+</section>
+
 <section class="contact-cta">
   <div class="container">
     <div class="cta-content" @fadeInUp>

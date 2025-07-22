@@ -67,29 +67,29 @@ import { trigger, style, transition, animate, query, stagger } from '@angular/an
 export class HomeComponent implements OnInit {
   featuredProjects = [
     {
-      title: 'E-commerce Dashboard',
-      description: 'Panel de administración para tienda online con estadísticas en tiempo real y gestión de inventario',
-      image: 'assets/images/projects/project1.jpg',
-      tags: ['Angular', 'TypeScript', 'RxJS', 'Chart.js'],
-      demoUrl: 'https://demo.example.com/project1',
-      repoUrl: 'https://github.com/yourusername/project1'
+      title: 'Weather App',
+      description: $localize `Aplicación web del clima con backend en Rails y frontend moderno en React.`,
+      image: 'images/projects/weather-app.png',
+      tags: ['Ruby on Rails', 'PostgreSQL', 'Redis', 'Devise', 'Doorkeeper', 'React', 'TypeScript', 'Material UI', 'Redux Toolkit', 'Vite', 'Docker', 'OpenWeather API', 'OAuth 2.0'],
+      demoUrl: '',
+      repoUrl: 'https://github.com/sergiohdezchi/weather-app'
     },
     {
-      title: 'App de Tareas',
-      description: 'Aplicación para organizar tareas con sincronización en la nube y notificaciones',
-      image: 'assets/images/projects/project2.jpg',
-      tags: ['React', 'Redux', 'Firebase', 'PWA'],
-      demoUrl: 'https://demo.example.com/project2',
-      repoUrl: 'https://github.com/yourusername/project2'
+      title: 'Invoice App',
+      description: $localize `Frontend en Angular para la gestión de facturación digital.`,
+      image: 'images/projects/invoice-app.png',
+      tags: ['Angular', 'TypeScript', 'Angular Material'],
+      demoUrl: '',
+      repoUrl: 'https://github.com/sergiohdezchi/invoice-app'
     },
     {
-      title: 'Plataforma Educativa',
-      description: 'Sistema de gestión de cursos online con contenido interactivo y seguimiento de progreso',
-      image: 'assets/images/projects/project3.jpg',
-      tags: ['Angular', 'Node.js', 'MongoDB', 'WebSockets'],
-      demoUrl: 'https://demo.example.com/project3',
-      repoUrl: 'https://github.com/yourusername/project3'
-    }
+      title: 'Restaurant Reservation App',
+      description: $localize `Aplicación web de reservas de restaurante con frontend moderno en Angular.`,
+      image: 'images/projects/restaurant-reservation-app.png',
+      tags: ['Angular', 'TypeScript', 'Material UI', 'RxJS', 'SCSS', 'PayPal'],
+      demoUrl: '',
+      repoUrl: 'https://github.com/sergiohdezchi/restaurant-reservation-app'
+    },
   ];
 
   skillCategories = [

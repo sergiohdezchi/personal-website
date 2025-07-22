@@ -1,4 +1,4 @@
-/* 
+/*
   Configuración para servir un sitio estático multilenguaje
   Este archivo maneja las redirecciones y especifica la configuración del servidor
 */

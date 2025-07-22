@@ -1,0 +1,109 @@
+<section class="projects-hero">
+  <div class="container">
+    <div class="content">
+      <h1 class="title" i18n>Mis Proyectos</h1>
+      <p class="subtitle" i18n>Una muestra de mi trabajo y experiencia</p>
+    </div>
+  </div>
+</section>
+
+<section class="projects-filters">
+  <div class="container">
+    <div class="search-box">
+      <input
+        type="text"
+        [(ngModel)]="searchTerm"
+        placeholder="Buscar proyectos..."
+        class="search-input"
+        (input)="filterProjects()"
+      >
+      <i class="fas fa-search search-icon"></i>
+    </div>
+
+    <div class="filter-categories">
+      <button
+        class="filter-btn"
+        [class.active]="selectedCategory === ''"
+        (click)="selectCategory('')"
+        i18n
+      >
+        Todos
+      </button>
+      <button
+        *ngFor="let category of categories"
+        class="filter-btn"
+        [class.active]="selectedCategory === category"
+        (click)="selectCategory(category)"
+      >
+        {{ category }}
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="projects-grid">
+  <div class="container">
+    <div class="grid">
+      <div class="project-card"
+            *ngFor="let project of filteredProjects"
+            [class.expanded]="expandedProject === project.id"
+            (click)="toggleProject(project.id)">
+        <div class="project-image">
+          <img [src]="project.image" [alt]="project.title">
+          <div class="project-overlay">
+            <div class="overlay-content">
+              <div class="project-links">
+                <a *ngIf="project.demoUrl" [href]="project.demoUrl" target="_blank" class="project-link" (click)="$event.stopPropagation()">
+                  <i class="fas fa-external-link-alt"></i> Demo
+                </a>
+                <a [href]="project.repoUrl" target="_blank" class="project-link" (click)="$event.stopPropagation()" i18n>
+                  <i class="fab fa-github"></i> Código
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-header">
+            <h3 class="project-title">{{ project.title }}</h3>
+            <span class="completion-date">{{ project.completionDate }}</span>
+          </div>
+
+          <div class="project-tags">
+            <span class="tag" *ngFor="let tag of project.tags">{{ tag }}</span>
+          </div>
+
+          <p class="project-description" [class.short]="expandedProject !== project.id">
+            {{ expandedProject === project.id && project.longDescription ? project.longDescription : project.description }}
+          </p>
+
+          <div class="expand-indicator">
+            <span *ngIf="expandedProject !== project.id" i18n>Más detalles</span>
+            <span *ngIf="expandedProject === project.id" i18n>Menos detalles</span>
+            <i class="fas" [class.fa-chevron-down]="expandedProject !== project.id" [class.fa-chevron-up]="expandedProject === project.id"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="filteredProjects.length === 0" class="no-results">
+      <div class="empty-state">
+        <i class="fas fa-search"></i>
+        <h3 i18n>No se encontraron proyectos</h3>
+        <p i18n>Intenta con otro término de búsqueda o categoría</p>
+        <button class="btn btn-primary" (click)="resetFilters()" i18n>Mostrar todos los proyectos</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-cta">
+  <div class="container">
+    <div class="cta-content">
+      <h2 i18n>¿Tienes un proyecto en mente?</h2>
+      <p i18n>Estoy disponible para nuevos proyectos y colaboraciones. Hablemos sobre cómo puedo ayudarte.</p>
+      <a routerLink="/contact" class="btn btn-primary btn-lg" i18n>Contáctame</a>
+    </div>
+  </div>
+</section>
